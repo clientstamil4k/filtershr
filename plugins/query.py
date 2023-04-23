@@ -524,13 +524,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
             ],[
 
-            InlineKeyboardButton("📢 GROUP 1 📢", url="https://t.me/+BTloleyZM1IxMzhl"),
+            InlineKeyboardButton("📢 GROUP 1 📢", url="https://t.me/tamilmovrequest"),
 
-            InlineKeyboardButton("📢 GROUP 2 📢", url="https://t.me/+4PZWTzj7K3EyZTc1")
+            InlineKeyboardButton("📢 GROUP 2 📢", url="https://t.me/shr_4kRequest")
 
             ],[
 
-            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/tamil4ksupport")
+            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/shr_pro_bots")
 
             ],[
 
@@ -583,7 +583,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "search":
         buttons= [[
-            InlineKeyboardButton('😇 Movie request group 😇', url='https://t.me/+BTloleyZM1IxMzhl')
+            InlineKeyboardButton("📢 GROUP 1 📢", url="https://t.me/tamilmovrequest"),
+            InlineKeyboardButton("📢 GROUP 2 📢", url="https://t.me/shr_4kRequest")
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
